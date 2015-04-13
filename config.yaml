@@ -1,0 +1,13 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+  tag: "tags"
+baseurl: "http://gouyang.github.io"
+title: "Gouyang"
+
+params:
+  Description: "move hard and slow"
+...
