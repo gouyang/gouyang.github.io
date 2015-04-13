@@ -7,8 +7,8 @@ title: "first"
 
 test hugo
 
-if you can go far sway than this, it should be ok.
+if you can see this, it should be ok.
 
 <!--more-->
 
-thank you all for read this.
+more to come...
