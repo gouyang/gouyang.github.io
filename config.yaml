@@ -7,6 +7,7 @@ indexes:
   tag: "tags"
 baseurl: "http://gouyang.github.io"
 title: "guohua"
+builddrafts: true
 
 params:
   Description: "细看风景，慢慢忙活"
@@ -32,4 +33,8 @@ menu:
       Weight: -100
       Identifier: "about"
       Url: "/about/"
+
+noTimes: false 
+paginate: 10
+paginatePath: "page"
 ...
