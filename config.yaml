@@ -6,7 +6,7 @@ indexes:
   category: "categories"
   tag: "tags"
 baseurl: "http://gouyang.github.io"
-title: "guohua"
+title: "Guohua"
 builddrafts: true
 
 params:
