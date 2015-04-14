@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guohua</title>
+    <link>http://gouyang.github.io/</link>
+    <description>Recent content on Guohua</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Apr 2015 20:38:58 +0800</lastBuildDate>
+    <atom:link href="http://gouyang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Customize Desktop - Awesome WM</title>
+      <link>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</link>
+      <pubDate>Tue, 14 Apr 2015 20:38:58 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</guid>
+      <description>
+
+&lt;p&gt;Once I have tried Awesome window manager, I will not leave it.&lt;/p&gt;
+
+&lt;p&gt;Awesome becomes my favor WM because it&amp;rsquo;s really lightweight, and a few shortcuts meet my all needs.&lt;/p&gt;
+
+&lt;p&gt;I intend to make it as lean as possible with less configurations.&lt;/p&gt;
+
+&lt;h1 id=&#34;first-the-layouts:a20ea495d573f939e205d9abef7f341b&#34;&gt;First, the layouts.&lt;/h1&gt;
+
+&lt;p&gt;There are totally 12 layouts can be used, after try each of them, I only use 3 of them now.
+Maybe others is useful for some cases, which I do not aware of them becore I really know how to use them.&lt;/p&gt;
+
+&lt;p&gt;The three I used ared:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;floating&lt;/li&gt;
+&lt;li&gt;tile&lt;/li&gt;
+&lt;li&gt;max&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most used layouts by me is max, because I need a big screen for everything. Tile is used for
+compare something or copy-read something, like copy content from browser to vim, some websites do not support copy.&lt;/p&gt;
+
+&lt;p&gt;So I comment others and use the three like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-- {{{ Tags
+-- Define a tag table which hold all screen tags.
+tags = {}
+for s = 1, screen.count() do
+    -- Each screen has its own tag table.
+    tags[s] = awful.tag({ 1, 2, 3 }, s, {layouts[3], layouts[2], layouts[1]})
+end
+-- }}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;tags:a20ea495d573f939e205d9abef7f341b&#34;&gt;Tags&lt;/h1&gt;
+
+&lt;p&gt;There are 9 tags by default, I do not need that much.
+I only use first three tags as above codes shows.&lt;/p&gt;
+
+&lt;p&gt;Tags can be switched by the modkey + num. There is no need to use icon or text for them.
+Actually I removed the left_layout.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    -- Now bring it all together (with the tasklist in the middle)
+    local layout = wibox.layout.align.horizontal()
+    --layout:set_left(left_layout)
+    layout:set_middle(mytasklist[s])
+    layout:set_right(right_layout)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which just gets a more clean screen to me.&lt;/p&gt;
+
+&lt;h1 id=&#34;widget:a20ea495d573f939e205d9abef7f341b&#34;&gt;Widget&lt;/h1&gt;
+
+&lt;p&gt;The only widget I add is textclock.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mytextclock = awful.widget.textclock()
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;shortcuts:a20ea495d573f939e205d9abef7f341b&#34;&gt;shortcuts&lt;/h1&gt;
+
+&lt;p&gt;Shortcuts is useful, I use it for the most and must used applications, like IRC(Pidgin),
+Mail Client(thunderbird), Browser(firefox, chrome), Terminal, etc.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s okay to just have a few for most used apps, and run others from command line, it
+somehow helps you to investigate other tools by manual.&lt;/p&gt;
+
+&lt;p&gt;For convenience, I use modkey + c to cancel/kill a window.&lt;/p&gt;
+
+&lt;h1 id=&#34;theme:a20ea495d573f939e205d9abef7f341b&#34;&gt;Theme&lt;/h1&gt;
+
+&lt;p&gt;Place theme in the same place for rc.lue.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;beautiful.init(awful.util.getdir(&amp;quot;config&amp;quot;) .. &amp;quot;/themes/default/theme.lua&amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After tested some pictures from internet, I switch over to the default background picture, which
+looks awesome and awesome and awesome.&lt;/p&gt;
+
+&lt;h1 id=&#34;misc:a20ea495d573f939e205d9abef7f341b&#34;&gt;Misc&lt;/h1&gt;
+
+&lt;p&gt;I once have the run_once function to spawn program once, And never use it after some time.&lt;/p&gt;
+
+&lt;p&gt;Also, I have rules to put some app to specified tag, but not used anymore, it should be
+useful for multiscreens.&lt;/p&gt;
+
+&lt;h1 id=&#34;auto-login:a20ea495d573f939e205d9abef7f341b&#34;&gt;Auto-login&lt;/h1&gt;
+
+&lt;p&gt;There are three popular display manager: gdm, lightdm, slim.
+All of them are easy to configure for autologin.&lt;/p&gt;
+
+&lt;p&gt;For gdm, select awesome on the login screen and make below changes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/etc/gdm/custom.conf
+
+# Enable automatic login for user
+[daemon]
+AutomaticLogin=username
+AutomaticLoginEnable=True
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion:a20ea495d573f939e205d9abef7f341b&#34;&gt;conclusion&lt;/h1&gt;
+
+&lt;p&gt;Awesome WM is a great tile window manager, it can be customized in many ways, you will find
+which suit best for you. Once you finalize your rc.lue, put it into your dotFiles on github or
+somewhere else you can retrieve easily.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://gouyang.github.io/about/</link>
+      <pubDate>Tue, 14 Apr 2015 06:26:59 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/about/</guid>
+      <description>&lt;p&gt;none&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>http://gouyang.github.io/post/first/</link>
+      <pubDate>Mon, 13 Apr 2015 21:44:01 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/post/first/</guid>
+      <description>&lt;p&gt;test hugo&lt;/p&gt;
+
+&lt;p&gt;if you can see this, it should be ok.&lt;/p&gt;
+
+&lt;p&gt;more to come&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
