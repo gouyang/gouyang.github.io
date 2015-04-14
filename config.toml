@@ -4,3 +4,4 @@ builddrafts = true
 
 [params]
   Description = "细看风景，慢慢忙活"
+  disqusShortname = "disque"
