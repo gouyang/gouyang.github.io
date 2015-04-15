@@ -16,7 +16,7 @@ I intend to make it as lean as possible with less configurations.
 There are totally 12 layouts can be used, after try each of them, I only use 3 of them now.
 Maybe others is useful for some cases, which I do not aware of them becore I really know how to use them.
 
-The three I used ared:
+The three I used are:
 
 - floating
 - tile
@@ -46,7 +46,7 @@ There are 9 tags by default, I do not need that much.
 I only use first three tags as above codes shows.
 
 Tags can be switched by the modkey + num. There is no need to use icon or text for them.
-Actually I removed the left_layout.
+Actually I comment out the left_layout wibox.
 
 ```
     -- Now bring it all together (with the tasklist in the middle)
@@ -69,31 +69,32 @@ mytextclock = awful.widget.textclock()
 
 # shortcuts
 
-Shortcuts is useful, I use it for the most and must used applications, like IRC(Pidgin), 
+Shortcuts is useful, I have no icon/text to run applications as I remove the left_layout, 
+I create shortcuts only for these most used and must have applications, like IRC(Pidgin), 
 Mail Client(thunderbird), Browser(firefox, chrome), Terminal, etc.
 
-It's okay to just have a few for most used apps, and run others from command line, it
+It's okay to just have a few, when you need a special program, run it from command line, it
 somehow helps you to investigate other tools by manual.
 
-For convenience, I use modkey + c to cancel/kill a window.
+For convenience, I use modkey + c(no shift or ctrl) to kill the program.
 
 # Theme
 
-Place theme in the same place for rc.lue.
+Place theme in the same place for rc.lua, usually under ~/.config/awesome/themes/.
 
 ```
 beautiful.init(awful.util.getdir("config") .. "/themes/default/theme.lua")
 
 ```
 
-After tested some pictures from internet, I switch over to the default background picture, which
+After tested some pictures from Internet, I switch over to the default background, which
 looks awesome and awesome and awesome.
 
 # Misc
 
-I once have the run_once function to spawn program once, And never use it after some time.
+I have the run_once function to spawn program once for some time, but leave it without using later.
 
-Also, I have rules to put some app to specified tag, but not used anymore, it should be 
+Also, I have rules to put some programs to a specified tag, and abandon it later also, it should be 
 useful for multiscreens.
 
 # Auto-login
@@ -117,5 +118,5 @@ That's it.
 # conclusion
 
 Awesome WM is a great tile window manager, it can be customized in many ways, you will find 
-which suit best for you. Once you finalize your rc.lue, put it into your dotFiles on github or
-somewhere else you can retrieve easily.
+what serve best for you. Once you finalize your rc.lua, put it into your dotFiles on github or
+somewhere else you can retrieve easily wherever and whenever.
