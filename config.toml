@@ -3,5 +3,5 @@ title = "Guohua"
 builddrafts = true
 
 [params]
-  Description = "细看风景，慢慢忙活"
+  Description = "Trivias for my everyday"
   disqusShortname = "disque"
