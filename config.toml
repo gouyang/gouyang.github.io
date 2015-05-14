@@ -1,7 +1,7 @@
 baseurl = "http://gouyang.github.io/"
-title = "Guohua"
+title = "bit by bit"
 builddrafts = true
 
 [params]
-  Description = "Trivias for my everyday"
+  description = " "
   disqusShortname = "disque"
