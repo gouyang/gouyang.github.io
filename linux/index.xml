@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linuxes on Guohua</title>
+    <title>Linuxes on bit by bit</title>
     <link>http://gouyang.github.io/linux/</link>
-    <description>Recent content in Linuxes on Guohua</description>
+    <description>Recent content in Linuxes on bit by bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 14 Apr 2015 20:38:58 +0800</lastBuildDate>
     <atom:link href="http://gouyang.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
