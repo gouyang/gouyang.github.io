@@ -12,7 +12,7 @@ Three obstacles of effectively speech:
 2. People are easy to judge the speaker by their first impressions.
 3. Two many disattractions for both the speaker and audiences.
 
-> "if you can't explain it simply you don't understand it well enough." - einstein
+***"if you can't explain it simply you don't understand it well enough." - einstein***
 
 <!--more-->
 
@@ -31,6 +31,6 @@ Handle nervous:
 1. Be practiced with your topic.
 2. Familiar with the environment before you start.
 
-"I'm trying to get you to realize you needn't be governed by fear." - The king's speech
+***"I'm trying to get you to realize you needn't be governed by fear." - The king's speech***
 
 People go to listen your talk is sharing their time with you, let both are worth it.
