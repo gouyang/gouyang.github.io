@@ -5,8 +5,8 @@ title = "Some Simple and daily github flows"
 
 +++
 
-Here records some simple github workflow, all of these can be searched on github help. 
-Based on my personal experience so far, they looks are:
+Here records some simple github workflows, all of these can be searched out on github help.   
+Based on my personal experience so far, they looks like:
 
 1. Syncing a fork repo from upstream
 2. Send PR based on branch
