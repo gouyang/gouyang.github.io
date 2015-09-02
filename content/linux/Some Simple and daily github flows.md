@@ -1,7 +1,7 @@
 +++
 date = "2015-09-02T09:56:21+08:00"
 draft = true
-title = "Some Simple and daily github workflows"
+title = "Some Simple and daily github flows"
 
 +++
 
