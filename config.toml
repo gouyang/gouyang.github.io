@@ -1,7 +1,7 @@
 baseurl = "http://gouyang.github.io/"
-title = "bit by bit"
+title = "guohua's blog"
 builddrafts = true
 
 [params]
-  description = " "
+  description = "Good memory is not better than broken pencil"
   disqusShortname = "disque"
