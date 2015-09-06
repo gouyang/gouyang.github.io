@@ -1,5 +1,5 @@
 baseurl = "http://gouyang.github.io/"
-title = "guohua's blog"
+title = "Guohua's blog"
 builddrafts = true
 
 [params]
