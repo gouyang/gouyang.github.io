@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Improve presentation skills &middot; Guohua&#39;s blog </title>
+  <title> Set default browser in terminal &middot; Guohua&#39;s blog </title>
 
   
   <link rel="stylesheet" href="http://gouyang.github.io//css/poole.css">
@@ -52,44 +52,40 @@
 
     <div class="content container">
 <div class="post">
-  <h1>Improve presentation skills</h1>
-  <span class="post-date">Thu, Jul 30, 2015</span>
-      
+  <h1>Set default browser in terminal</h1>
+  <span class="post-date">Sun, Sep 6, 2015</span>
+      <p>How to set the default browser in terminal for every applications?</p>
 
-<p>Attend a course &ldquo;Presentation skills&rdquo; recently, summarizing it here.</p>
+<p>I&rsquo;ve searched this and figure out this before, but still spend lots of time to find the answer today.
+It seems the perfectly way is, add below contents to ~/.local/share/applications/mimeapps.list.</p>
 
-<h4 id="three-obstacles-of-effectively-speech:02f599a77c7af18c16377106939146d5">Three obstacles of effectively speech:</h4>
+<pre><code>[Default Applications]
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/ftp=google-chrome.desktop
+x-scheme-handler/chrome=google-chrome.desktop
+text/html=google-chrome.desktop
+application/x-extension-htm=google-chrome.desktop
+application/x-extension-html=google-chrome.desktop
+application/x-extension-shtml=google-chrome.desktop
+application/xhtml+xml=google-chrome.desktop
+application/x-extension-xhtml=google-chrome.desktop
+application/x-extension-xht=google-chrome.desktop
 
-<ul>
-<li>People are easy to forget, even for those they just hear about.</li>
-<li>People are easy to judge the speaker by their first impressions.</li>
-<li>Two many disattractions for both the speaker and audiences.</li>
-</ul>
+[Added Associations]
+x-scheme-handler/http=google-chrome.desktop;
+x-scheme-handler/https=google-chrome.desktop;
+x-scheme-handler/ftp=google-chrome.desktop;
+x-scheme-handler/chrome=google-chrome.desktop;
+text/html=google-chrome.desktop;
+application/x-extension-htm=google-chrome.desktop;
+application/x-extension-html=google-chrome.desktop;
+application/x-extension-shtml=google-chrome.desktop;
+application/xhtml+xml=google-chrome.desktop;
+application/x-extension-xhtml=google-chrome.desktop;
+application/x-extension-xht=google-chrome.desktop;
 
-<p><strong><em>&ldquo;if you can&rsquo;t explain it simply you don&rsquo;t understand it well enough.&rdquo; - einstein</em></strong></p>
-
-<p>The most successful speech is the one who speak all simple stuff but let you hardly to forget.</p>
-
-<h4 id="tips-for-create-the-slides:02f599a77c7af18c16377106939146d5">Tips for create the slides:</h4>
-
-<ul>
-<li>Don&rsquo;t exceed 36 characters per page.</li>
-<li>Don&rsquo;t exceed 7 words per line.</li>
-<li>Don&rsquo;t exceed 3 colors per page.</li>
-<li>Font size should &gt;= 24.</li>
-<li>Talk at least 3 minutes for a single page, otherwise the page no need exists.</li>
-</ul>
-
-<h4 id="handle-nervous:02f599a77c7af18c16377106939146d5">Handle nervous:</h4>
-
-<ul>
-<li>Be practiced with your topic.</li>
-<li>Familiar with the environment before you start.</li>
-</ul>
-
-<p><strong><em>&ldquo;I&rsquo;m trying to get you to realize you needn&rsquo;t be governed by fear.&rdquo; - The king&rsquo;s speech</em></strong></p>
-
-<p>People go to listen your talk is sharing their time with you, let both are worth it.</p>
+</code></pre>
 
 </div>
 <div id="disqus_thread"></div>

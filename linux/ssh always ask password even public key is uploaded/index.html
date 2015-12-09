@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Diaries &middot; Guohua&#39;s blog </title>
+  <title> ssh always ask password even public key is uploaded &middot; Guohua&#39;s blog </title>
 
   
   <link rel="stylesheet" href="http://gouyang.github.io//css/poole.css">
@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
 
   
-  <link href="http://gouyang.github.io/diary/index.xml" rel="alternate" type="application/rss+xml" title="Guohua&#39;s blog" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Guohua&#39;s blog" />
 </head>
 
 <body>
@@ -50,14 +50,37 @@
 </div>
 
 
-  <div class="content container">
-    <ul class="posts">
-        
-        <li>
-          <span><a href="http://gouyang.github.io/diary/Improve%20presentation%20skills/">Improve presentation skills</a> <time class="pull-right post-list">Thu, Jul 30, 2015</time></span>
-        </li>
-        
-    </ul>
-  </div>
-</body>
+    <div class="content container">
+<div class="post">
+  <h1>ssh always ask password even public key is uploaded</h1>
+  <span class="post-date">Sun, Sep 6, 2015</span>
+      <p>ssh with public key works for a really long time, but it just goes wrong these two days.
+At first I was just tried to delete old publick key files, re-generate it and upload them, but it seems not enough.</p>
+
+<p>The problem is that the user home dir ownership and file mode changed on remote host, although I have no idea how it changed. Maybe get hacked?
+To debug the problem, look at /var/log/secure may get some clues.</p>
+
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+     
+     
+     if (window.location.hostname == "localhost")
+             return;
+
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     var disqus_shortname = 'disque';
+     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+ })();
+</script>
+<script>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></script>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+  </body>
 </html>

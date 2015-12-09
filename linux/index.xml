@@ -1,12 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linuxes on Guohua</title>
+    <title>Linuxes on Guohua&#39;s blog</title>
     <link>http://gouyang.github.io/linux/</link>
-    <description>Recent content in Linuxes on Guohua</description>
+    <description>Recent content in Linuxes on Guohua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Apr 2015 20:38:58 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2015 20:24:21 +0800</lastBuildDate>
     <atom:link href="http://gouyang.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ssh always ask password even public key is uploaded</title>
+      <link>http://gouyang.github.io/linux/ssh%20always%20ask%20password%20even%20public%20key%20is%20uploaded/</link>
+      <pubDate>Sun, 06 Sep 2015 20:24:21 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/linux/ssh%20always%20ask%20password%20even%20public%20key%20is%20uploaded/</guid>
+      <description>&lt;p&gt;ssh with public key works for a really long time, but it just goes wrong these two days.
+At first I was just tried to delete old publick key files, re-generate it and upload them, but it seems not enough.&lt;/p&gt;
+
+&lt;p&gt;The problem is that the user home dir ownership and file mode changed on remote host, although I have no idea how it changed. Maybe get hacked?
+To debug the problem, look at /var/log/secure may get some clues.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Set default browser in terminal</title>
+      <link>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</link>
+      <pubDate>Sun, 06 Sep 2015 19:52:02 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</guid>
+      <description>&lt;p&gt;How to set the default browser in terminal for every applications?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve searched this and figure out this before, but still spend lots of time to find the answer today.
+It seems the perfectly way is, add below contents to ~/.local/share/applications/mimeapps.list.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Default Applications]
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/ftp=google-chrome.desktop
+x-scheme-handler/chrome=google-chrome.desktop
+text/html=google-chrome.desktop
+application/x-extension-htm=google-chrome.desktop
+application/x-extension-html=google-chrome.desktop
+application/x-extension-shtml=google-chrome.desktop
+application/xhtml+xml=google-chrome.desktop
+application/x-extension-xhtml=google-chrome.desktop
+application/x-extension-xht=google-chrome.desktop
+
+[Added Associations]
+x-scheme-handler/http=google-chrome.desktop;
+x-scheme-handler/https=google-chrome.desktop;
+x-scheme-handler/ftp=google-chrome.desktop;
+x-scheme-handler/chrome=google-chrome.desktop;
+text/html=google-chrome.desktop;
+application/x-extension-htm=google-chrome.desktop;
+application/x-extension-html=google-chrome.desktop;
+application/x-extension-shtml=google-chrome.desktop;
+application/xhtml+xml=google-chrome.desktop;
+application/x-extension-xhtml=google-chrome.desktop;
+application/x-extension-xht=google-chrome.desktop;
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some Simple and daily github flows</title>
+      <link>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</link>
+      <pubDate>Wed, 02 Sep 2015 09:56:21 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</guid>
+      <description>&lt;p&gt;Here records some simple github workflows, all of these can be searched out on github help.&lt;br /&gt;
+Based on my personal experience so far, they looks like:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Syncing a fork repo from upstream&lt;/li&gt;
+&lt;li&gt;Send PR based on branch&lt;/li&gt;
+&lt;li&gt;Pull a PR to local for testing or merging.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Syncing a fork&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;git remote add upstream url&lt;/li&gt;
+&lt;li&gt;git fetch upstream&lt;/li&gt;
+&lt;li&gt;git co master  // co is alias for checkout&lt;/li&gt;
+&lt;li&gt;git merge upsteam/master&lt;/li&gt;
+&lt;li&gt;git push origin master&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Send PR&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;create a new branch:&lt;/p&gt;
+
+&lt;p&gt;git br new-brname&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;fetch upstream source:&lt;/p&gt;
+
+&lt;p&gt;git fetch upstream&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;merge upstream:&lt;/p&gt;
+
+&lt;p&gt;git merge upstream/master&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;push:&lt;/p&gt;
+
+&lt;p&gt;git push origin new-brname&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;compare and create pull request on github&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To test or merge a PR to local&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;git fetch origin pull/ID/head:BRANCHNAME&lt;/li&gt;
+&lt;li&gt;git checkout BRANCHNAME&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Customize Desktop - Awesome WM</title>

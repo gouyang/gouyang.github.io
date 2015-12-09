@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Improve presentation skills &middot; Guohua&#39;s blog </title>
+  <title> Some Simple and daily github flows &middot; Guohua&#39;s blog </title>
 
   
   <link rel="stylesheet" href="http://gouyang.github.io//css/poole.css">
@@ -52,44 +52,55 @@
 
     <div class="content container">
 <div class="post">
-  <h1>Improve presentation skills</h1>
-  <span class="post-date">Thu, Jul 30, 2015</span>
-      
+  <h1>Some Simple and daily github flows</h1>
+  <span class="post-date">Wed, Sep 2, 2015</span>
+      <p>Here records some simple github workflows, all of these can be searched out on github help.<br />
+Based on my personal experience so far, they looks like:</p>
 
-<p>Attend a course &ldquo;Presentation skills&rdquo; recently, summarizing it here.</p>
+<ol>
+<li>Syncing a fork repo from upstream</li>
+<li>Send PR based on branch</li>
+<li>Pull a PR to local for testing or merging.</li>
+</ol>
 
-<h4 id="three-obstacles-of-effectively-speech:02f599a77c7af18c16377106939146d5">Three obstacles of effectively speech:</h4>
+<p>Syncing a fork</p>
 
-<ul>
-<li>People are easy to forget, even for those they just hear about.</li>
-<li>People are easy to judge the speaker by their first impressions.</li>
-<li>Two many disattractions for both the speaker and audiences.</li>
-</ul>
+<ol>
+<li>git remote add upstream url</li>
+<li>git fetch upstream</li>
+<li>git co master  // co is alias for checkout</li>
+<li>git merge upsteam/master</li>
+<li>git push origin master</li>
+</ol>
 
-<p><strong><em>&ldquo;if you can&rsquo;t explain it simply you don&rsquo;t understand it well enough.&rdquo; - einstein</em></strong></p>
+<p>Send PR</p>
 
-<p>The most successful speech is the one who speak all simple stuff but let you hardly to forget.</p>
+<ol>
+<li><p>create a new branch:</p>
 
-<h4 id="tips-for-create-the-slides:02f599a77c7af18c16377106939146d5">Tips for create the slides:</h4>
+<p>git br new-brname</p></li>
 
-<ul>
-<li>Don&rsquo;t exceed 36 characters per page.</li>
-<li>Don&rsquo;t exceed 7 words per line.</li>
-<li>Don&rsquo;t exceed 3 colors per page.</li>
-<li>Font size should &gt;= 24.</li>
-<li>Talk at least 3 minutes for a single page, otherwise the page no need exists.</li>
-</ul>
+<li><p>fetch upstream source:</p>
 
-<h4 id="handle-nervous:02f599a77c7af18c16377106939146d5">Handle nervous:</h4>
+<p>git fetch upstream</p></li>
 
-<ul>
-<li>Be practiced with your topic.</li>
-<li>Familiar with the environment before you start.</li>
-</ul>
+<li><p>merge upstream:</p>
 
-<p><strong><em>&ldquo;I&rsquo;m trying to get you to realize you needn&rsquo;t be governed by fear.&rdquo; - The king&rsquo;s speech</em></strong></p>
+<p>git merge upstream/master</p></li>
 
-<p>People go to listen your talk is sharing their time with you, let both are worth it.</p>
+<li><p>push:</p>
+
+<p>git push origin new-brname</p></li>
+
+<li><p>compare and create pull request on github</p></li>
+</ol>
+
+<p>To test or merge a PR to local</p>
+
+<ol>
+<li>git fetch origin pull/ID/head:BRANCHNAME</li>
+<li>git checkout BRANCHNAME</li>
+</ol>
 
 </div>
 <div id="disqus_thread"></div>
