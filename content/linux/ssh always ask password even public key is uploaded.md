@@ -5,7 +5,7 @@ title = "ssh always ask password even public key is uploaded"
 
 +++
 
-ssh with public key works for a really long time, but it just goes wrong these two days.
+ssh with public key works for a really long time, but it just goes wrong these two days. 
 At first I was just tried to delete old publick key files, re-generate it and upload them, but it seems not enough. 
 
 <!--more-->
