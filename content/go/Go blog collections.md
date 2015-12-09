@@ -5,7 +5,7 @@ title = "Go blog collections"
 
 +++
 
-Collect various golang blogs...
+Collect various golang blogs and technical solutions, no matter how small it is...
 
 <!--more-->
 
