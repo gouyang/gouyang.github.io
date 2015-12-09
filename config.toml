@@ -3,5 +3,5 @@ title = "Wula"
 builddrafts = true
 
 [params]
-  Description = "Don't feat to blog little things"
+  description = "Don't feat to blog little things"
   disqusShortname = "disque"
