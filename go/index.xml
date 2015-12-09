@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gos on Wula</title>
+    <link>http://gouyang.github.io/go/</link>
+    <description>Recent content in Gos on Wula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Dec 2015 13:40:58 +0800</lastBuildDate>
+    <atom:link href="http://gouyang.github.io/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blog collections</title>
+      <link>http://gouyang.github.io/go/Blog%20collections/</link>
+      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/go/Blog%20collections/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://begriffs.com/&#34;&gt;Begriffs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nathanleclaire.com/post/&#34;&gt;I care, I share, I&amp;rsquo;m Nathan LeClaire.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go blogs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice&#34;&gt;Reflection - range over interface which is a slice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/Dhg1YS6BJS&#34;&gt;Convert the []string to an []interface{}&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go&#34;&gt;How to use interfaces in go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.giantflyingsaucer.com/blog/?p=5635&#34;&gt;Go: Simple, Easy, Fast – Building a Go (golang) REST Service with Gorilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Resources-for-new-go-programmers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
