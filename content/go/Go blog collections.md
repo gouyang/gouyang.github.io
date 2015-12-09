@@ -1,13 +1,17 @@
 +++
 date = "2015-12-09T13:40:58+08:00"
 draft = true
-title = "Blog collections"
+title = "Go blog collections"
 
 +++
 
-- [Alex Edwards - Go,Ruby,AWS,Git,Linux](http://www.alexedwards.net/blog) 
-- [Justinas - Go ](https://justinas.org/) 
-- [Joey hess- Who live in a cabin](http://joey.hess.usesthis.com/) 
+Collect various golang blogs...
+
+<!--more-->
+
+- [Alex Edwards - Go,Ruby,AWS,Git,Linux](http://www.alexedwards.net/blog)  
+- [Justinas - Go ](https://justinas.org/)  
+- [Joey hess- Who live in a cabin](http://joey.hess.usesthis.com/)   
 - [Begriffs](http://begriffs.com/) 
 - [I care, I share, I'm Nathan LeClaire.](http://nathanleclaire.com/post/) 
 - [Go blogs](https://github.com/golang/go/wiki/Blogs) 

@@ -5,9 +5,9 @@ title = "Set default browser in terminal"
 
 +++
 
-How to set the default browser in terminal for every applications?
+How to set the default browser in terminal for every applications?   
 
-I've searched this and figure out this before, but still spend lots of time to find the answer today.
+I've searched this and figured it out long time before, but still spend lots of time to find the answer today.
 It seems the perfectly way is, add below contents to ~/.local/share/applications/mimeapps.list.
 
 <!--more-->
