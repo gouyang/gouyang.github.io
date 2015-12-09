@@ -1,5 +1,5 @@
 # gouyang.github.io
-Source for gouyang.github.io.
+Source for https://gouyang.github.io.
 
 Please git commit your new stuff before call deploy.sh.
 
