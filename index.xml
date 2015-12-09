@@ -9,15 +9,17 @@
     <atom:link href="http://gouyang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blog collections</title>
-      <link>http://gouyang.github.io/go/Blog%20collections/</link>
+      <title>Go blog collections</title>
+      <link>http://gouyang.github.io/go/Go%20blog%20collections/</link>
       <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/go/Blog%20collections/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;/li&gt;
+      <guid>http://gouyang.github.io/go/Go%20blog%20collections/</guid>
+      <description>&lt;p&gt;Collect various golang blogs&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://begriffs.com/&#34;&gt;Begriffs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://nathanleclaire.com/post/&#34;&gt;I care, I share, I&amp;rsquo;m Nathan LeClaire.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go blogs&lt;/a&gt;&lt;/li&gt;
@@ -33,20 +35,6 @@
     </item>
     
     <item>
-      <title>ssh always ask password even public key is uploaded</title>
-      <link>http://gouyang.github.io/linux/ssh%20always%20ask%20password%20even%20public%20key%20is%20uploaded/</link>
-      <pubDate>Sun, 06 Sep 2015 20:24:21 +0800</pubDate>
-      
-      <guid>http://gouyang.github.io/linux/ssh%20always%20ask%20password%20even%20public%20key%20is%20uploaded/</guid>
-      <description>&lt;p&gt;ssh with public key works for a really long time, but it just goes wrong these two days.
-At first I was just tried to delete old publick key files, re-generate it and upload them, but it seems not enough.&lt;/p&gt;
-
-&lt;p&gt;The problem is that the user home dir ownership and file mode changed on remote host, although I have no idea how it changed. Maybe get hacked?
-To debug the problem, look at /var/log/secure may get some clues.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Set default browser in terminal</title>
       <link>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</link>
       <pubDate>Sun, 06 Sep 2015 19:52:02 +0800</pubDate>
@@ -54,7 +42,7 @@ To debug the problem, look at /var/log/secure may get some clues.&lt;/p&gt;
       <guid>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</guid>
       <description>&lt;p&gt;How to set the default browser in terminal for every applications?&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve searched this and figure out this before, but still spend lots of time to find the answer today.
+&lt;p&gt;I&amp;rsquo;ve searched this and figured it out long time before, but still spend lots of time to find the answer today.
 It seems the perfectly way is, add below contents to ~/.local/share/applications/mimeapps.list.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;[Default Applications]

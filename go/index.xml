@@ -9,15 +9,17 @@
     <atom:link href="http://gouyang.github.io/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blog collections</title>
-      <link>http://gouyang.github.io/go/Blog%20collections/</link>
+      <title>Go blog collections</title>
+      <link>http://gouyang.github.io/go/Go%20blog%20collections/</link>
       <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/go/Blog%20collections/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;/li&gt;
+      <guid>http://gouyang.github.io/go/Go%20blog%20collections/</guid>
+      <description>&lt;p&gt;Collect various golang blogs&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://begriffs.com/&#34;&gt;Begriffs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://nathanleclaire.com/post/&#34;&gt;I care, I share, I&amp;rsquo;m Nathan LeClaire.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go blogs&lt;/a&gt;&lt;/li&gt;
