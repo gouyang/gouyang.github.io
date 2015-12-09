@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linuxes on Guohua&#39;s blog</title>
+    <title>Linuxes on Wula</title>
     <link>http://gouyang.github.io/linux/</link>
-    <description>Recent content in Linuxes on Guohua&#39;s blog</description>
+    <description>Recent content in Linuxes on Wula</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 06 Sep 2015 20:24:21 +0800</lastBuildDate>
     <atom:link href="http://gouyang.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
