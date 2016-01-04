@@ -14,10 +14,11 @@
       <pubDate>Fri, 18 Dec 2015 13:35:44 +0800</pubDate>
       
       <guid>http://gouyang.github.io/go/go_libraries/</guid>
-      <description>&lt;p&gt;Collect go libraries which I has been familar with and possibly will use it in future.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;microservices
-#############&lt;/p&gt;
+&lt;p&gt;Collect go libraries which I has been familar with and possibly will use it in future.&lt;/p&gt;
+
+&lt;h1 id=&#34;microservices:cd584f57167009371f41e299618d5dee&#34;&gt;microservices&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/go-kit/kit&#34;&gt;A Go toolkit for microservices&lt;/a&gt;&lt;/li&gt;
