@@ -5,41 +5,109 @@
     <link>http://gouyang.github.io/</link>
     <description>Recent content on Wula</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Dec 2015 13:40:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2015 13:35:44 +0800</lastBuildDate>
     <atom:link href="http://gouyang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Go blog collections</title>
-      <link>http://gouyang.github.io/go/Go%20blog%20collections/</link>
-      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
+      <title>Go libraries</title>
+      <link>http://gouyang.github.io/go/go_libraries/</link>
+      <pubDate>Fri, 18 Dec 2015 13:35:44 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/go/Go%20blog%20collections/</guid>
-      <description>&lt;p&gt;Collect various golang blogs and technical solutions, no matter how small it is&amp;hellip;&lt;/p&gt;
+      <guid>http://gouyang.github.io/go/go_libraries/</guid>
+      <description>&lt;p&gt;Collect go libraries which I has been familar with and possibly will use it in future.&lt;/p&gt;
+
+&lt;p&gt;microservices
+#############&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://begriffs.com/&#34;&gt;Begriffs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://nathanleclaire.com/post/&#34;&gt;I care, I share, I&amp;rsquo;m Nathan LeClaire.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go blogs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-kit/kit&#34;&gt;A Go toolkit for microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nytimes/gizmo&#34;&gt;A Microservice Toolkit from The New York Times&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go Collections</title>
+      <link>http://gouyang.github.io/go/go_resources/</link>
+      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/go/go_resources/</guid>
+      <description>
+
+&lt;p&gt;Go Collections&lt;/p&gt;
+
+&lt;h1 id=&#34;go-blogs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go blogs&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go Blog list from Go wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/&#34;&gt;The official Go Blog&lt;/a&gt; - For in depth posts by the Go team&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/&#34;&gt;Gopher Academy Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/&#34;&gt;Dave Cheney&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Dave Cheney&amp;rsquo;s Resources for Go Programmers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/post/&#34;&gt;spf13&amp;rsquo;s Go Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whipperstacker.com/&#34;&gt;Katrina Owen&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@matryer&#34;&gt;Mat Ryer&amp;rsquo;s Medium Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matt.aimonetti.net/&#34;&gt;Matt Aimonetti&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://marcio.io/&#34;&gt;Marcio.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whizdumb.me/&#34;&gt;Whizdumb&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://carlosbecker.com/&#34;&gt;Carlos Becker&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.goinggo.net/&#34;&gt;Ardan Studios Going Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangweekly.com/&#34;&gt;The Golang Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog/category/golang&#34;&gt;Alex Edward&amp;rsquo;s Golang Posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mlafeldt.github.io/&#34;&gt;Mathias Lafeldt&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ksub.org/bytes/&#34;&gt;Marcelo Magallon&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-proverbs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go proverbs&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-proverbs.github.io/&#34;&gt;Go proverbs from Rob Pike&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice&#34;&gt;Reflection - range over interface which is a slice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/Dhg1YS6BJS&#34;&gt;Convert the []string to an []interface{}&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-articles:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go articles&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go&#34;&gt;How to use interfaces in go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.giantflyingsaucer.com/blog/?p=5635&#34;&gt;Go: Simple, Easy, Fast – Building a Go (golang) REST Service with Gorilla&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Resources-for-new-go-programmers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ksimka/go-is-not-good&#34;&gt;Go is not good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://exotel.in/blog/engineering/understanding-go-context-library/&#34;&gt;Understanding Go’s Context Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-books:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go books&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt; - free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/go-in-action&#34;&gt;Go in action&lt;/a&gt; - Partial free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dariubs/GoBooks&#34;&gt;List of GoBooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;others:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Others&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangnews.com/&#34;&gt;Go HackerNews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/wulaxx/lists/gophers&#34;&gt;Twitter Gophers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Set default browser in terminal</title>
-      <link>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</link>
+      <link>http://gouyang.github.io/linux/set_default_broswer/</link>
       <pubDate>Sun, 06 Sep 2015 19:52:02 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</guid>
+      <guid>http://gouyang.github.io/linux/set_default_broswer/</guid>
       <description>&lt;p&gt;How to set the default browser in terminal for every applications?&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve searched this and figured it out long time before, but still spend lots of time to find the answer today.
@@ -72,15 +140,18 @@ application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
 
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thunderbird has something special, there is a knowledge base provides a completed guide about it.
+&lt;a href=&#34;http://kb.mozillazine.org/Default_browser&#34;&gt;http://kb.mozillazine.org/Default_browser&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Some Simple and daily github flows</title>
-      <link>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</link>
+      <link>http://gouyang.github.io/linux/some_daily_git_tips/</link>
       <pubDate>Wed, 02 Sep 2015 09:56:21 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</guid>
+      <guid>http://gouyang.github.io/linux/some_daily_git_tips/</guid>
       <description>&lt;p&gt;Here records some simple github workflows, all of these can be searched out on github help.&lt;br /&gt;
 Based on my personal experience so far, they looks like:&lt;/p&gt;
 
@@ -133,15 +204,15 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
     
     <item>
       <title>Improve presentation skills</title>
-      <link>http://gouyang.github.io/diary/Improve%20presentation%20skills/</link>
+      <link>http://gouyang.github.io/diary/improve_presentation_skills/</link>
       <pubDate>Thu, 30 Jul 2015 15:42:16 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/diary/Improve%20presentation%20skills/</guid>
+      <guid>http://gouyang.github.io/diary/improve_presentation_skills/</guid>
       <description>
 
 &lt;p&gt;Attend a course &amp;ldquo;Presentation skills&amp;rdquo; recently, summarizing it here.&lt;/p&gt;
 
-&lt;h4 id=&#34;three-obstacles-of-effectively-speech:02f599a77c7af18c16377106939146d5&#34;&gt;Three obstacles of effectively speech:&lt;/h4&gt;
+&lt;h4 id=&#34;three-obstacles-of-effectively-speech:a18366784c063fbe4b8e5dea8a540981&#34;&gt;Three obstacles of effectively speech:&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;People are easy to forget, even for those they just hear about.&lt;/li&gt;
@@ -153,7 +224,7 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
 
 &lt;p&gt;The most successful speech is the one who speak all simple stuff but let you hardly to forget.&lt;/p&gt;
 
-&lt;h4 id=&#34;tips-for-create-the-slides:02f599a77c7af18c16377106939146d5&#34;&gt;Tips for create the slides:&lt;/h4&gt;
+&lt;h4 id=&#34;tips-for-create-the-slides:a18366784c063fbe4b8e5dea8a540981&#34;&gt;Tips for create the slides:&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Don&amp;rsquo;t exceed 36 characters per page.&lt;/li&gt;
@@ -163,7 +234,7 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
 &lt;li&gt;Talk at least 3 minutes for a single page, otherwise the page no need exists.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;handle-nervous:02f599a77c7af18c16377106939146d5&#34;&gt;Handle nervous:&lt;/h4&gt;
+&lt;h4 id=&#34;handle-nervous:a18366784c063fbe4b8e5dea8a540981&#34;&gt;Handle nervous:&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Be practiced with your topic.&lt;/li&gt;
@@ -178,10 +249,10 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
     
     <item>
       <title>Customize Desktop - Awesome WM</title>
-      <link>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</link>
+      <link>http://gouyang.github.io/linux/awesome_wm/</link>
       <pubDate>Tue, 14 Apr 2015 20:38:58 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</guid>
+      <guid>http://gouyang.github.io/linux/awesome_wm/</guid>
       <description>
 
 &lt;p&gt;Once I have tried Awesome window manager, I will not leave it.&lt;/p&gt;
@@ -190,7 +261,7 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
 
 &lt;p&gt;I intend to make it as lean as possible with less configurations.&lt;/p&gt;
 
-&lt;h1 id=&#34;first-the-layouts:a20ea495d573f939e205d9abef7f341b&#34;&gt;First, the layouts.&lt;/h1&gt;
+&lt;h1 id=&#34;first-the-layouts:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;First, the layouts.&lt;/h1&gt;
 
 &lt;p&gt;There are totally 12 layouts can be used, after try each of them, I only use 3 of them now.
 Maybe others is useful for some cases, which I do not aware of them becore I really know how to use them.&lt;/p&gt;
@@ -218,7 +289,7 @@ end
 -- }}}
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;tags:a20ea495d573f939e205d9abef7f341b&#34;&gt;Tags&lt;/h1&gt;
+&lt;h1 id=&#34;tags:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Tags&lt;/h1&gt;
 
 &lt;p&gt;There are 9 tags by default, I do not need that much.
 I only use first three tags as above codes shows.&lt;/p&gt;
@@ -235,7 +306,7 @@ Actually I comment out the left_layout wibox.&lt;/p&gt;
 
 &lt;p&gt;Which just gets a more clean screen to me.&lt;/p&gt;
 
-&lt;h1 id=&#34;widget:a20ea495d573f939e205d9abef7f341b&#34;&gt;Widget&lt;/h1&gt;
+&lt;h1 id=&#34;widget:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Widget&lt;/h1&gt;
 
 &lt;p&gt;The only widget I add is textclock.&lt;/p&gt;
 
@@ -243,7 +314,7 @@ Actually I comment out the left_layout wibox.&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;shortcuts:a20ea495d573f939e205d9abef7f341b&#34;&gt;shortcuts&lt;/h1&gt;
+&lt;h1 id=&#34;shortcuts:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;shortcuts&lt;/h1&gt;
 
 &lt;p&gt;Shortcuts is useful, I have no icon/text to run applications as I remove the left_layout,
 I create shortcuts only for these most used and must have applications, like IRC(Pidgin),
@@ -254,7 +325,7 @@ somehow helps you to investigate other tools by manual.&lt;/p&gt;
 
 &lt;p&gt;For convenience, I use modkey + c(no shift or ctrl) to kill the program.&lt;/p&gt;
 
-&lt;h1 id=&#34;theme:a20ea495d573f939e205d9abef7f341b&#34;&gt;Theme&lt;/h1&gt;
+&lt;h1 id=&#34;theme:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Theme&lt;/h1&gt;
 
 &lt;p&gt;Place theme in the same place for rc.lua, usually under ~/.config/awesome/themes/.&lt;/p&gt;
 
@@ -265,14 +336,14 @@ somehow helps you to investigate other tools by manual.&lt;/p&gt;
 &lt;p&gt;After tested some pictures from Internet, I switch over to the default background, which
 looks awesome and awesome and awesome.&lt;/p&gt;
 
-&lt;h1 id=&#34;misc:a20ea495d573f939e205d9abef7f341b&#34;&gt;Misc&lt;/h1&gt;
+&lt;h1 id=&#34;misc:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Misc&lt;/h1&gt;
 
 &lt;p&gt;I have the run_once function to spawn program once for some time, but leave it without using later.&lt;/p&gt;
 
 &lt;p&gt;Also, I have rules to put some programs to a specified tag, and abandon it later also, it should be
 useful for multiscreens.&lt;/p&gt;
 
-&lt;h1 id=&#34;auto-login:a20ea495d573f939e205d9abef7f341b&#34;&gt;Auto-login&lt;/h1&gt;
+&lt;h1 id=&#34;auto-login:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Auto-login&lt;/h1&gt;
 
 &lt;p&gt;There are three popular display manager: gdm, lightdm, slim.
 All of them are easy to configure for autologin.&lt;/p&gt;
@@ -289,7 +360,7 @@ AutomaticLoginEnable=True
 
 &lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
 
-&lt;h1 id=&#34;conclusion:a20ea495d573f939e205d9abef7f341b&#34;&gt;conclusion&lt;/h1&gt;
+&lt;h1 id=&#34;conclusion:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;conclusion&lt;/h1&gt;
 
 &lt;p&gt;Awesome WM is a great tile window manager, it can be customized in many ways, you will find
 what serve best for you. Once you finalize your rc.lua, put it into your dotFiles on github or

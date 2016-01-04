@@ -10,10 +10,10 @@
     
     <item>
       <title>Set default browser in terminal</title>
-      <link>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</link>
+      <link>http://gouyang.github.io/linux/set_default_broswer/</link>
       <pubDate>Sun, 06 Sep 2015 19:52:02 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</guid>
+      <guid>http://gouyang.github.io/linux/set_default_broswer/</guid>
       <description>&lt;p&gt;How to set the default browser in terminal for every applications?&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve searched this and figured it out long time before, but still spend lots of time to find the answer today.
@@ -46,15 +46,18 @@ application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
 
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thunderbird has something special, there is a knowledge base provides a completed guide about it.
+&lt;a href=&#34;http://kb.mozillazine.org/Default_browser&#34;&gt;http://kb.mozillazine.org/Default_browser&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Some Simple and daily github flows</title>
-      <link>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</link>
+      <link>http://gouyang.github.io/linux/some_daily_git_tips/</link>
       <pubDate>Wed, 02 Sep 2015 09:56:21 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</guid>
+      <guid>http://gouyang.github.io/linux/some_daily_git_tips/</guid>
       <description>&lt;p&gt;Here records some simple github workflows, all of these can be searched out on github help.&lt;br /&gt;
 Based on my personal experience so far, they looks like:&lt;/p&gt;
 
@@ -107,10 +110,10 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
     
     <item>
       <title>Customize Desktop - Awesome WM</title>
-      <link>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</link>
+      <link>http://gouyang.github.io/linux/awesome_wm/</link>
       <pubDate>Tue, 14 Apr 2015 20:38:58 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</guid>
+      <guid>http://gouyang.github.io/linux/awesome_wm/</guid>
       <description>
 
 &lt;p&gt;Once I have tried Awesome window manager, I will not leave it.&lt;/p&gt;
@@ -119,7 +122,7 @@ Based on my personal experience so far, they looks like:&lt;/p&gt;
 
 &lt;p&gt;I intend to make it as lean as possible with less configurations.&lt;/p&gt;
 
-&lt;h1 id=&#34;first-the-layouts:a20ea495d573f939e205d9abef7f341b&#34;&gt;First, the layouts.&lt;/h1&gt;
+&lt;h1 id=&#34;first-the-layouts:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;First, the layouts.&lt;/h1&gt;
 
 &lt;p&gt;There are totally 12 layouts can be used, after try each of them, I only use 3 of them now.
 Maybe others is useful for some cases, which I do not aware of them becore I really know how to use them.&lt;/p&gt;
@@ -147,7 +150,7 @@ end
 -- }}}
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;tags:a20ea495d573f939e205d9abef7f341b&#34;&gt;Tags&lt;/h1&gt;
+&lt;h1 id=&#34;tags:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Tags&lt;/h1&gt;
 
 &lt;p&gt;There are 9 tags by default, I do not need that much.
 I only use first three tags as above codes shows.&lt;/p&gt;
@@ -164,7 +167,7 @@ Actually I comment out the left_layout wibox.&lt;/p&gt;
 
 &lt;p&gt;Which just gets a more clean screen to me.&lt;/p&gt;
 
-&lt;h1 id=&#34;widget:a20ea495d573f939e205d9abef7f341b&#34;&gt;Widget&lt;/h1&gt;
+&lt;h1 id=&#34;widget:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Widget&lt;/h1&gt;
 
 &lt;p&gt;The only widget I add is textclock.&lt;/p&gt;
 
@@ -172,7 +175,7 @@ Actually I comment out the left_layout wibox.&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;shortcuts:a20ea495d573f939e205d9abef7f341b&#34;&gt;shortcuts&lt;/h1&gt;
+&lt;h1 id=&#34;shortcuts:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;shortcuts&lt;/h1&gt;
 
 &lt;p&gt;Shortcuts is useful, I have no icon/text to run applications as I remove the left_layout,
 I create shortcuts only for these most used and must have applications, like IRC(Pidgin),
@@ -183,7 +186,7 @@ somehow helps you to investigate other tools by manual.&lt;/p&gt;
 
 &lt;p&gt;For convenience, I use modkey + c(no shift or ctrl) to kill the program.&lt;/p&gt;
 
-&lt;h1 id=&#34;theme:a20ea495d573f939e205d9abef7f341b&#34;&gt;Theme&lt;/h1&gt;
+&lt;h1 id=&#34;theme:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Theme&lt;/h1&gt;
 
 &lt;p&gt;Place theme in the same place for rc.lua, usually under ~/.config/awesome/themes/.&lt;/p&gt;
 
@@ -194,14 +197,14 @@ somehow helps you to investigate other tools by manual.&lt;/p&gt;
 &lt;p&gt;After tested some pictures from Internet, I switch over to the default background, which
 looks awesome and awesome and awesome.&lt;/p&gt;
 
-&lt;h1 id=&#34;misc:a20ea495d573f939e205d9abef7f341b&#34;&gt;Misc&lt;/h1&gt;
+&lt;h1 id=&#34;misc:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Misc&lt;/h1&gt;
 
 &lt;p&gt;I have the run_once function to spawn program once for some time, but leave it without using later.&lt;/p&gt;
 
 &lt;p&gt;Also, I have rules to put some programs to a specified tag, and abandon it later also, it should be
 useful for multiscreens.&lt;/p&gt;
 
-&lt;h1 id=&#34;auto-login:a20ea495d573f939e205d9abef7f341b&#34;&gt;Auto-login&lt;/h1&gt;
+&lt;h1 id=&#34;auto-login:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;Auto-login&lt;/h1&gt;
 
 &lt;p&gt;There are three popular display manager: gdm, lightdm, slim.
 All of them are easy to configure for autologin.&lt;/p&gt;
@@ -218,7 +221,7 @@ AutomaticLoginEnable=True
 
 &lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
 
-&lt;h1 id=&#34;conclusion:a20ea495d573f939e205d9abef7f341b&#34;&gt;conclusion&lt;/h1&gt;
+&lt;h1 id=&#34;conclusion:be9924040c3cf7456e9aa7484ecf27e6&#34;&gt;conclusion&lt;/h1&gt;
 
 &lt;p&gt;Awesome WM is a great tile window manager, it can be customized in many ways, you will find
 what serve best for you. Once you finalize your rc.lua, put it into your dotFiles on github or

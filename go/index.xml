@@ -5,31 +5,99 @@
     <link>http://gouyang.github.io/go/</link>
     <description>Recent content in Gos on Wula</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Dec 2015 13:40:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2015 13:35:44 +0800</lastBuildDate>
     <atom:link href="http://gouyang.github.io/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Go blog collections</title>
-      <link>http://gouyang.github.io/go/Go%20blog%20collections/</link>
-      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
+      <title>Go libraries</title>
+      <link>http://gouyang.github.io/go/go_libraries/</link>
+      <pubDate>Fri, 18 Dec 2015 13:35:44 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/go/Go%20blog%20collections/</guid>
-      <description>&lt;p&gt;Collect various golang blogs and technical solutions, no matter how small it is&amp;hellip;&lt;/p&gt;
+      <guid>http://gouyang.github.io/go/go_libraries/</guid>
+      <description>&lt;p&gt;Collect go libraries which I has been familar with and possibly will use it in future.&lt;/p&gt;
+
+&lt;p&gt;microservices
+#############&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog&#34;&gt;Alex Edwards - Go,Ruby,AWS,Git,Linux&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://joey.hess.usesthis.com/&#34;&gt;Joey hess- Who live in a cabin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://begriffs.com/&#34;&gt;Begriffs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://nathanleclaire.com/post/&#34;&gt;I care, I share, I&amp;rsquo;m Nathan LeClaire.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go blogs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-kit/kit&#34;&gt;A Go toolkit for microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nytimes/gizmo&#34;&gt;A Microservice Toolkit from The New York Times&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go Collections</title>
+      <link>http://gouyang.github.io/go/go_resources/</link>
+      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
+      
+      <guid>http://gouyang.github.io/go/go_resources/</guid>
+      <description>
+
+&lt;p&gt;Go Collections&lt;/p&gt;
+
+&lt;h1 id=&#34;go-blogs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go blogs&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go Blog list from Go wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/&#34;&gt;The official Go Blog&lt;/a&gt; - For in depth posts by the Go team&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/&#34;&gt;Gopher Academy Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/&#34;&gt;Dave Cheney&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Dave Cheney&amp;rsquo;s Resources for Go Programmers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/post/&#34;&gt;spf13&amp;rsquo;s Go Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whipperstacker.com/&#34;&gt;Katrina Owen&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@matryer&#34;&gt;Mat Ryer&amp;rsquo;s Medium Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matt.aimonetti.net/&#34;&gt;Matt Aimonetti&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://marcio.io/&#34;&gt;Marcio.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whizdumb.me/&#34;&gt;Whizdumb&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://carlosbecker.com/&#34;&gt;Carlos Becker&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.goinggo.net/&#34;&gt;Ardan Studios Going Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangweekly.com/&#34;&gt;The Golang Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog/category/golang&#34;&gt;Alex Edward&amp;rsquo;s Golang Posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mlafeldt.github.io/&#34;&gt;Mathias Lafeldt&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ksub.org/bytes/&#34;&gt;Marcelo Magallon&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-proverbs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go proverbs&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-proverbs.github.io/&#34;&gt;Go proverbs from Rob Pike&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice&#34;&gt;Reflection - range over interface which is a slice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/Dhg1YS6BJS&#34;&gt;Convert the []string to an []interface{}&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-articles:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go articles&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go&#34;&gt;How to use interfaces in go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.giantflyingsaucer.com/blog/?p=5635&#34;&gt;Go: Simple, Easy, Fast – Building a Go (golang) REST Service with Gorilla&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Resources-for-new-go-programmers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ksimka/go-is-not-good&#34;&gt;Go is not good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://exotel.in/blog/engineering/understanding-go-context-library/&#34;&gt;Understanding Go’s Context Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;go-books:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go books&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt; - free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/go-in-action&#34;&gt;Go in action&lt;/a&gt; - Partial free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dariubs/GoBooks&#34;&gt;List of GoBooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;others:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Others&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangnews.com/&#34;&gt;Go HackerNews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/wulaxx/lists/gophers&#34;&gt;Twitter Gophers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

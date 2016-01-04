@@ -3,32 +3,37 @@
   
   <url>
     <loc>http://gouyang.github.io/</loc>
-    <lastmod>2015-12-09T13:40:58+08:00</lastmod>
+    <lastmod>2015-12-18T13:35:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gouyang.github.io/go/Go%20blog%20collections/</loc>
+    <loc>http://gouyang.github.io/go/go_libraries/</loc>
+    <lastmod>2015-12-18T13:35:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gouyang.github.io/go/go_resources/</loc>
     <lastmod>2015-12-09T13:40:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gouyang.github.io/linux/Set%20default%20browser%20in%20terminal/</loc>
+    <loc>http://gouyang.github.io/linux/set_default_broswer/</loc>
     <lastmod>2015-09-06T19:52:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gouyang.github.io/linux/Some%20Simple%20and%20daily%20github%20flows/</loc>
+    <loc>http://gouyang.github.io/linux/some_daily_git_tips/</loc>
     <lastmod>2015-09-02T09:56:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gouyang.github.io/diary/Improve%20presentation%20skills/</loc>
+    <loc>http://gouyang.github.io/diary/improve_presentation_skills/</loc>
     <lastmod>2015-07-30T15:42:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gouyang.github.io/linux/Customize%20Desktop%20-%20Awesome%20WM/</loc>
+    <loc>http://gouyang.github.io/linux/awesome_wm/</loc>
     <lastmod>2015-04-14T20:38:58+08:00</lastmod>
   </url>
   
