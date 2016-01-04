@@ -40,3 +40,6 @@ application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
 
 ```
+
+Thunderbird has something special, there is a knowledge base provides a completed guide about it.
+http://kb.mozillazine.org/Default_browser
