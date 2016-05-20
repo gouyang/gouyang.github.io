@@ -35,6 +35,7 @@ Go blogs
 - Others
 
     - [Justinas - Go ](https://justinas.org/)
+    - [Peter Bourgon](https://peter.bourgon.org/)
 
 Go proverbs
 ===========
