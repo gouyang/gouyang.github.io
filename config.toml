@@ -1,7 +1,7 @@
 baseurl = "http://gouyang.github.io/"
-title = "Wula"
+title = "Gouyang"
 builddrafts = true
 
 [params]
-  description = "Don't feat to blog little things"
+  description = "Don't fear to blog little things"
   disqusShortname = "disque"
