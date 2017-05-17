@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gos on Wula</title>
+    <title>Gos on Gouyang</title>
     <link>http://gouyang.github.io/go/</link>
-    <description>Recent content in Gos on Wula</description>
+    <description>Recent content in Gos on Gouyang</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 20 May 2016 11:06:58 +0800</lastBuildDate>
-    <atom:link href="http://gouyang.github.io/go/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://gouyang.github.io/go/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Go top tip collections</title>
-      <link>http://gouyang.github.io/go/Top_tip/</link>
+      <link>http://gouyang.github.io/go/top_tip/</link>
       <pubDate>Fri, 20 May 2016 11:06:58 +0800</pubDate>
       
-      <guid>http://gouyang.github.io/go/Top_tip/</guid>
+      <guid>http://gouyang.github.io/go/top_tip/</guid>
       <description>&lt;p&gt;Go top tip collections.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -21,50 +23,10 @@
 &lt;li&gt;If your repo foo is primarily a binary, put your library code in a lib/ subdir, and call it package foo.&lt;/li&gt;
 &lt;li&gt;If your repo is primarily a library, put your binaries in separate subdirectories under cmd/.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://talks.golang.org/2014/names.slide&#34;&gt;Idiomatic naming conventions&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only func main has the right to decide which flags are available to the user.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use struct literal initialization to avoid invalid intermediate state. Inline struct declarations where possible.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Avoid nil checks via default no-op implementations.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Make the zero value useful, especially in config objects.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Make dependencies explicit!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Loggers are dependencies, just like references to other components, database handles, commandline flags, etc.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use many small interfaces to model dependencies.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tests only need to test the thing being tested.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use a top tool to vendor dependencies for your binary.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Libraries should never vendor their dependencies.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Prefer go install to go build.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Time package tip: t1 := time.Now(); do_something(); d := time.Since(t1)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Embedding can trigger unexpected, implicit indirection. Unless you know you need to embed, prefer naming your struct fields.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Never launch a goroutine without knowing how and when it will stop.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mixing struct initialization with constructors ends badly. Once your type has a constructor, use it everywhere.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Duplication is far cheaper than the wrong abstraction&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;When a function takes a slice of T, prefer &amp;hellip;T over []T.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Stop writing &amp;lsquo;%s&amp;rsquo; and start writing %q — &lt;a href=&#34;https://golang.org/pkg/fmt&#34;&gt;https://golang.org/pkg/fmt&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Only func main has the right to decide which flags are available to the user.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Reference:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://peter.bourgon.org/go-best-practices-2016/&#34;&gt;https://peter.bourgon.org/go-best-practices-2016/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,24 +35,10 @@
       <pubDate>Fri, 18 Dec 2015 13:35:44 +0800</pubDate>
       
       <guid>http://gouyang.github.io/go/go_libraries/</guid>
-      <description>&lt;p&gt;Collect go libraries which I has been familar with and possibly will use it in future.&lt;/p&gt;
-
-&lt;p&gt;microservices
-#############&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/go-kit/kit&#34;&gt;A Go toolkit for microservices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nytimes/gizmo&#34;&gt;A Microservice Toolkit from The New York Times&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Testing Frameworks
-##################&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://onsi.github.io/ginkgo/&#34;&gt;Ginkgo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/smartystreets/goconvey/&#34;&gt;Goconvey&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Collect go libraries which I has been familar with and possibly will use it in future.
+microservices #############
+ A Go toolkit for microservices A Microservice Toolkit from The New York Times  Testing Frameworks ##################
+ Ginkgo Goconvey  </description>
     </item>
     
     <item>
@@ -99,11 +47,9 @@
       <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
       
       <guid>http://gouyang.github.io/go/go_resources/</guid>
-      <description>
+      <description>&lt;p&gt;Go Collections&lt;/p&gt;
 
-&lt;p&gt;Go Collections&lt;/p&gt;
-
-&lt;h1 id=&#34;go-blogs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go blogs&lt;/h1&gt;
+&lt;h1 id=&#34;go-blogs&#34;&gt;Go blogs&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go Blog list from Go wiki&lt;/a&gt;&lt;/p&gt;
@@ -126,48 +72,9 @@
 &lt;li&gt;&lt;a href=&#34;https://mlafeldt.github.io/&#34;&gt;Mathias Lafeldt&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.ksub.org/bytes/&#34;&gt;Marcelo Magallon&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://justinas.org/&#34;&gt;Justinas - Go &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://peter.bourgon.org/&#34;&gt;Peter Bourgon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;go-proverbs:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go proverbs&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://go-proverbs.github.io/&#34;&gt;Go proverbs from Rob Pike&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice&#34;&gt;Reflection - range over interface which is a slice&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/Dhg1YS6BJS&#34;&gt;Convert the []string to an []interface{}&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;go-articles:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go articles&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://zhen.org/blog/golang-from-a-non-programmers-perspective/&#34;&gt;From a Non-Programmer&amp;rsquo;s Perspective&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go&#34;&gt;How to use interfaces in go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.giantflyingsaucer.com/blog/?p=5635&#34;&gt;Go: Simple, Easy, Fast – Building a Go (golang) REST Service with Gorilla&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ksimka/go-is-not-good&#34;&gt;Go is not good&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://exotel.in/blog/engineering/understanding-go-context-library/&#34;&gt;Understanding Go’s Context Library&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;go-books:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Go books&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/karlseguin/the-little-go-book&#34;&gt;The little go book&lt;/a&gt; - free&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/go-in-action&#34;&gt;Go in action&lt;/a&gt; - Partial free&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dariubs/GoBooks&#34;&gt;List of GoBooks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;others:6e800a2ab287c0442d494ab3b36b6b26&#34;&gt;Others&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://golangnews.com/&#34;&gt;Go HackerNews&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/wulaxx/lists/gophers&#34;&gt;Twitter Gophers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

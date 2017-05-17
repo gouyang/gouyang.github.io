@@ -1,43 +1,47 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.21-DEV" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Customize Desktop - Awesome WM &middot; Wula </title>
+  
+  <title>Customize Desktop - Awesome WM &middot; Gouyang</title>
+  
 
   
   <link rel="stylesheet" href="http://gouyang.github.io//css/poole.css">
   <link rel="stylesheet" href="http://gouyang.github.io//css/syntax.css">
   <link rel="stylesheet" href="http://gouyang.github.io//css/hyde.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="Wula" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Gouyang" />
 </head>
 
-<body>
-
-<div class="sidebar">
+	<body class=" ">
+		<div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1>Wula</h1>
+      <h1>Gouyang</h1>
       <h2 class="lead" align="right">
-       Don&#39;t feat to blog little things 
+       Don&#39;t fear to blog little things 
       </h2>
     </div>
     </br>
     <ul class="sidebar-nav">
-        <li><a href="/">Index</a> </li>
+        <li><a href="/">Recently</a> </li>
+        <li><a href="/linux/">Linux</a> </li>
+        <li><a href="/go/">Go</a> </li>
+        <li><a href="/diary/">Diary</a> </li>
     </ul>
-
+    <p>&copy; 2017. All rights reserved. </p>
   </div>
 </div>
 
@@ -45,19 +49,17 @@
 </div>
 
 
-    <div class="content container">
-<div class="post">
-  <h1>Customize Desktop - Awesome WM</h1>
-  <span class="post-date">Tue, Apr 14, 2015</span>
-      
-
-<p>Once I have tried Awesome window manager, I will not leave it.</p>
+		<div class="content container">
+			<div class="post">
+			 	<h1>Customize Desktop - Awesome WM</h1>
+			  <span class="post-date">Tue, Apr 14, 2015</span>
+			      <p>Once I have tried Awesome window manager, I will not leave it.</p>
 
 <p>Awesome becomes my favor WM because it&rsquo;s really lightweight, and a few shortcuts meet my all needs.</p>
 
 <p>I intend to make it as lean as possible with less configurations.</p>
 
-<h1 id="first-the-layouts:be9924040c3cf7456e9aa7484ecf27e6">First, the layouts.</h1>
+<h1 id="first-the-layouts">First, the layouts.</h1>
 
 <p>There are totally 12 layouts can be used, after try each of them, I only use 3 of them now.
 Maybe others is useful for some cases, which I do not aware of them becore I really know how to use them.</p>
@@ -85,7 +87,9 @@ end
 -- }}}
 </code></pre>
 
-<h1 id="tags:be9924040c3cf7456e9aa7484ecf27e6">Tags</h1>
+<p></p>
+
+<h1 id="tags">Tags</h1>
 
 <p>There are 9 tags by default, I do not need that much.
 I only use first three tags as above codes shows.</p>
@@ -102,7 +106,7 @@ Actually I comment out the left_layout wibox.</p>
 
 <p>Which just gets a more clean screen to me.</p>
 
-<h1 id="widget:be9924040c3cf7456e9aa7484ecf27e6">Widget</h1>
+<h1 id="widget">Widget</h1>
 
 <p>The only widget I add is textclock.</p>
 
@@ -110,7 +114,7 @@ Actually I comment out the left_layout wibox.</p>
 
 </code></pre>
 
-<h1 id="shortcuts:be9924040c3cf7456e9aa7484ecf27e6">shortcuts</h1>
+<h1 id="shortcuts">shortcuts</h1>
 
 <p>Shortcuts is useful, I have no icon/text to run applications as I remove the left_layout,
 I create shortcuts only for these most used and must have applications, like IRC(Pidgin),
@@ -121,7 +125,7 @@ somehow helps you to investigate other tools by manual.</p>
 
 <p>For convenience, I use modkey + c(no shift or ctrl) to kill the program.</p>
 
-<h1 id="theme:be9924040c3cf7456e9aa7484ecf27e6">Theme</h1>
+<h1 id="theme">Theme</h1>
 
 <p>Place theme in the same place for rc.lua, usually under ~/.config/awesome/themes/.</p>
 
@@ -132,14 +136,14 @@ somehow helps you to investigate other tools by manual.</p>
 <p>After tested some pictures from Internet, I switch over to the default background, which
 looks awesome and awesome and awesome.</p>
 
-<h1 id="misc:be9924040c3cf7456e9aa7484ecf27e6">Misc</h1>
+<h1 id="misc">Misc</h1>
 
 <p>I have the run_once function to spawn program once for some time, but leave it without using later.</p>
 
 <p>Also, I have rules to put some programs to a specified tag, and abandon it later also, it should be
 useful for multiscreens.</p>
 
-<h1 id="auto-login:be9924040c3cf7456e9aa7484ecf27e6">Auto-login</h1>
+<h1 id="auto-login">Auto-login</h1>
 
 <p>There are three popular display manager: gdm, lightdm, slim.
 All of them are easy to configure for autologin.</p>
@@ -156,14 +160,14 @@ AutomaticLoginEnable=True
 
 <p>That&rsquo;s it.</p>
 
-<h1 id="conclusion:be9924040c3cf7456e9aa7484ecf27e6">conclusion</h1>
+<h1 id="conclusion">conclusion</h1>
 
 <p>Awesome WM is a great tile window manager, it can be customized in many ways, you will find
 what serve best for you. Once you finalize your rc.lua, put it into your dotFiles on github or
 somewhere else you can retrieve easily wherever and whenever.</p>
-
-</div>
-<div id="disqus_thread"></div>
+			</div>
+			<div>
+      <div id="disqus_thread"></div>
 <script type="text/javascript">
 
 (function() {
@@ -182,7 +186,6 @@ somewhere else you can retrieve easily wherever and whenever.</p>
 <script>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></script>
 <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-</div>
-
+			</div>
   </body>
 </html>
