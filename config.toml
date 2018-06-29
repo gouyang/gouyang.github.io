@@ -1,8 +1,7 @@
 baseurl = "http://gouyang.github.io/"
-title = "Gouyang"
+title = "Guohua Ouyang"
 builddrafts = true
 theme = "hyde"
 
 [params]
-  description = "Don't fear to blog little things"
-  disqusShortname = "disque"
+  description = "杂乱无章"
