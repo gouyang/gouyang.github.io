@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gos on Gouyang</title>
+    <title>Gos on 浮生随想</title>
     <link>http://gouyang.github.io/go/</link>
-    <description>Recent content in Gos on Gouyang</description>
+    <description>Recent content in Gos on 浮生随想</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 20 May 2016 11:06:58 +0800</lastBuildDate>
     
@@ -24,54 +24,6 @@
 &lt;li&gt;If your repo is primarily a library, put your binaries in separate subdirectories under cmd/.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://talks.golang.org/2014/names.slide&#34;&gt;Idiomatic naming conventions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Only func main has the right to decide which flags are available to the user.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Go libraries</title>
-      <link>http://gouyang.github.io/go/go_libraries/</link>
-      <pubDate>Fri, 18 Dec 2015 13:35:44 +0800</pubDate>
-      
-      <guid>http://gouyang.github.io/go/go_libraries/</guid>
-      <description>Collect go libraries which I has been familar with and possibly will use it in future.
-microservices #############
- A Go toolkit for microservices A Microservice Toolkit from The New York Times  Testing Frameworks ##################
- Ginkgo Goconvey  </description>
-    </item>
-    
-    <item>
-      <title>Go Collections</title>
-      <link>http://gouyang.github.io/go/go_resources/</link>
-      <pubDate>Wed, 09 Dec 2015 13:40:58 +0800</pubDate>
-      
-      <guid>http://gouyang.github.io/go/go_resources/</guid>
-      <description>&lt;p&gt;Go Collections&lt;/p&gt;
-
-&lt;h1 id=&#34;go-blogs&#34;&gt;Go blogs&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Blogs&#34;&gt;Go Blog list from Go wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/&#34;&gt;The official Go Blog&lt;/a&gt; - For in depth posts by the Go team&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/&#34;&gt;Gopher Academy Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/&#34;&gt;Dave Cheney&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/resources-for-new-go-programmers&#34;&gt;Dave Cheney&amp;rsquo;s Resources for Go Programmers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://spf13.com/post/&#34;&gt;spf13&amp;rsquo;s Go Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://whipperstacker.com/&#34;&gt;Katrina Owen&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@matryer&#34;&gt;Mat Ryer&amp;rsquo;s Medium Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://matt.aimonetti.net/&#34;&gt;Matt Aimonetti&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://marcio.io/&#34;&gt;Marcio.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://whizdumb.me/&#34;&gt;Whizdumb&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://carlosbecker.com/&#34;&gt;Carlos Becker&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.goinggo.net/&#34;&gt;Ardan Studios Going Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://golangweekly.com/&#34;&gt;The Golang Weekly&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alexedwards.net/blog/category/golang&#34;&gt;Alex Edward&amp;rsquo;s Golang Posts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mlafeldt.github.io/&#34;&gt;Mathias Lafeldt&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.ksub.org/bytes/&#34;&gt;Marcelo Magallon&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
