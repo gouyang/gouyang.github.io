@@ -1,7 +1,11 @@
 # gouyang.github.io
-Source for http://gouyang.github.io.
+This is the source for http://gouyang.github.io.
 
-After adding a new content post, just run deploy.sh, it will do push things automatically.  
-All details are in deploy.sh, read it.
+## theme
+$ git clone https://github.com/gouyang/hyde ./themes/hyde
 
-The theme is a modified version on hyde.
+## post
+$ hugo new posts/xxx.md
+
+## publish
+$ ./deploy.sh

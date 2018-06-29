@@ -1,6 +1,7 @@
 baseurl = "http://gouyang.github.io/"
 title = "Gouyang"
 builddrafts = true
+theme = "hyde"
 
 [params]
   description = "Don't fear to blog little things"
