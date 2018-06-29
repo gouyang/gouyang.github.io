@@ -13,9 +13,9 @@ eg:
 date = "2016-05-20T11:06:58+08:00"
 draft = true
 title = "Go top tip collections"
-</pre>
 
 +++
+</pre>
 
 ## publish
 $ ./deploy.sh
