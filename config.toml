@@ -1,7 +1,8 @@
 baseurl = "http://gouyang.github.io/"
-title = "Guohua Ouyang"
+title = "浮生随想"
 builddrafts = true
 theme = "hyde"
+DefaultContentLanguage = "cn"
 
 [params]
-  description = "杂乱无章"
+  description = "浮生随想"
