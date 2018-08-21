@@ -1,8 +1,10 @@
----
-title: "The Most Boring Person   Immanuel Kant"
-date: 2018-08-21T12:12:52+08:00
-draft: true
----
++++
+title = "The Most Boring Person - Immanuel Kant"
+date = 2018-08-21T12:12:52+08:00
+draft = true
+
++++
+
 
 ```
 - He woke up every morning at 5:00 AM
@@ -22,13 +24,10 @@ draft: true
 - Cheating is unethical for a similar reason. You are violating the expectations of other rational and sentient beings for your own personal aims.
 - Violence, same deal.
 
-The duty of self-improvement, the Michael Jackson Maxim.
+- The duty of self-improvement, the Michael Jackson Maxim.
 
-```
-If you want to make the world a better place, take a look at yourself, and make that change.
-```
+	- If you want to make the world a better place, take a look at yourself, and make that change.
 
-The duty of self-respect.
+- The duty of self-respect.
 
-We are not rich by what we possess but by what we can do without.
-
+"We are not rich by what we possess but by what we can do without."
