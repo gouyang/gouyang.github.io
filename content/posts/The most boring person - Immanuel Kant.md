@@ -31,3 +31,7 @@ draft = true
 - The duty of self-respect.
 
 "We are not rich by what we possess but by what we can do without."
+
+"Science is organized knowledge. Wisdom is organized life."
+
+"Morality is not the doctrine of how we may make ourselves happy, but how we may make ourselves worthy of happiness."
